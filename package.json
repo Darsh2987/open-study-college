@@ -1,0 +1,25 @@
+{
+  "name": "open-study-college",
+  "version": "1.0.0",
+  "main": "app.js",
+  "repository": "https://github.com/Darsh2987/open-study-college.git",
+  "author": "Darsh <darsh2987@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "css-loader": "^5.2.4",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "mini-css-extract-plugin": "^1.5.0",
+    "node-sass": "^5.0.0",
+    "optimize-css-assets-webpack-plugin": "^5.0.4",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "terser-webpack-plugin": "^5.1.1",
+    "webpack": "^5.35.1",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack --mode development --watch",
+    "build:prod": "webpack --mode production"
+  }
+}
