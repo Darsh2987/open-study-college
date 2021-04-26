@@ -6,6 +6,7 @@
   "author": "Darsh <darsh2987@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "axios": "^0.21.1",
     "css-loader": "^5.2.4",
     "file-loader": "^6.2.0",
     "html-webpack-plugin": "^5.3.1",
